@@ -9,7 +9,7 @@ import {
 
 const datos = [
   {id: 1, nombre: "Piratas del Caribe", tipo: "Pelicula", fechaRenta: "25/05/2022", fechaRegreso: "30/05/2022", precio: 29, cantidad: 1},
-  {id: 1, nombre: "Stranger Things", tipo: "Serie", fechaRenta: "20/05/2022", fechaRegreso: "25/05/2022", precio: 10.99, cantidad: 2}
+  {id: 2, nombre: "Stranger Things", tipo: "Serie", fechaRenta: "20/05/2022", fechaRegreso: "25/05/2022", precio: 10.99, cantidad: 2}
 ];
 class App extends React.Component{
 
