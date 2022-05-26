@@ -3,6 +3,7 @@ import './App.css';
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
   Table, Button, Container, Modal, ModalHeader, ModalBody, FormGroup, ModalFooter
 } from "reactstrap";
@@ -31,7 +32,7 @@ class App extends React.Component{
   handleChange = e =>{
     this.setState({
       form: {
-        ...this.state.form,
+        ...this.estado.form,
         [e.target.name]: e.target.value,
       }
     })
@@ -61,7 +62,7 @@ class App extends React.Component{
     nuevo.id = this.estado.datos.length + 1;
     var list = this.estado.datos;
     list.push(nuevo);
-    this.setState({ mdInsertar: false, data: list });
+    this.setState({ mdInsertar: false, datos: list });
   }
 
   editar = (reg) => {
